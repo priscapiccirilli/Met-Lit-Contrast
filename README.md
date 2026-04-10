@@ -6,7 +6,7 @@ of Metaphorical and Literal Verb–Object Constructions](https://arxiv.org/abs/2
 
 ### Citation
 
-If you use the VOLIMET dataset, please cite the following publication:
+If you use our collected data and/or the extracted features, or if you mention our work, please cite the following publication:
 ```bibtex
 @misc{piccirilli2026floatingsuggestingideaslargescale,
       title={Floating or Suggesting Ideas? A Large-Scale Contrastive Analysis of Metaphorical and Literal Verb-Object Constructions}, 
