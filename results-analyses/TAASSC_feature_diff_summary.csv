@@ -1,0 +1,356 @@
+Feature,Mean Difference,Paired t-test p,Wilcoxon p,Notes
+nwords,-0.7801476174764586,1.8028280749995515e-22,9.856452127470458e-23,Significant (higher in literal) but small effect
+av_nominal_deps,-0.046012352935539805,0.5313386800431201,0.4361477873394124,Not significant
+av_nsubj_deps,-0.02863675484017872,0.7000422432975797,0.7415655990727885,Not significant
+av_nsubj_pass_deps,-0.16769680551581123,0.0399419443150684,0.004162585298700273,Significant (higher in literal) but small effect
+av_agents_deps,-0.1684738912792378,0.04128121682140415,0.05335344998766779,Not significant
+av_dobj_deps,-0.06575472796296344,0.39389712036782776,0.2775320728606113,Not significant
+av_pobj_deps,-0.1434179519853427,0.07148801236564588,0.09765502717353627,Not significant
+av_iobj_deps,-0.2966836314237746,0.0004436934172133597,3.960801701551494e-06,Significant (higher in literal) but small effect
+av_ncomp_deps,0.1320761322460403,0.08272574013220602,0.041323451232412454,Significant (higher in metaphorical) but small effect
+av_nominal_deps_NN,-0.0030274779902843833,0.9669987755961233,0.9889581754818132,Not significant
+av_nsubj_deps_NN,0.07472987087817032,0.30297014913054493,0.25125224414076275,Not significant
+av_nsubj_pass_deps_NN,-0.18211911437006506,0.026950701845344743,0.010231741072873049,Significant (higher in literal) but small effect
+av_agents_deps_NN,-0.153047820512768,0.059966732666067515,0.11235265757884151,Not significant
+av_dobj_deps_NN,-0.019115201372170522,0.8045765267780043,0.6679095343257724,Not significant
+av_pobj_deps_NN,-0.17284990937351885,0.0299164351575278,0.05414306045330534,Not significant
+av_iobj_deps_NN,-0.3991556134983374,2.425959303213654e-06,8.118265625934826e-08,Significant (higher in literal) but small effect
+av_ncomp_deps_NN,0.1577309206810722,0.04018346618968478,0.021555957383149024,Significant (higher in metaphorical) but small effect
+nominal_deps_stdev,0.0744930800919622,0.33241678138089237,0.4891707960543975,Not significant
+nsubj_stdev,0.07711455813167056,0.3189594759033248,0.25041648625540414,Not significant
+nsubj_pass_stdev,-0.5587456435848208,1.7078690339421216e-12,1.826650453599579e-10,Significant (higher in literal) but small effect
+agents_stdev,-0.5748201712907661,7.033267859961176e-13,1.1141939331235771e-10,Significant (higher in literal) but small effect
+dobj_stdev,-0.028637126514910332,0.7228390148324368,0.5132256406531782,Not significant
+pobj_stdev,-0.23037188350814314,0.0026461797747675377,0.0007451474550090152,Significant (higher in literal) but small effect
+iobj_stdev,-0.5320023701944903,1.5386061121318127e-10,7.341992191866587e-11,Significant (higher in literal) but small effect
+ncomp_stdev,-0.22806026568234888,0.00569663674229764,0.019660288534435758,Significant (higher in literal) but small effect
+nominal_deps_NN_stdev,0.09672308237534419,0.21129718115101892,0.30276467155556397,Not significant
+nsubj_NN_stdev,0.1012781914367925,0.2143102182740813,0.2473686568982133,Not significant
+nsubj_pass_NN_stdev,-0.5605639080315145,2.5864820252129534e-12,1.7826932465346683e-10,Significant (higher in literal) but small effect
+agents_NN_stdev,-0.5405623391212927,2.693434474776423e-11,2.0636870917786517e-09,Significant (higher in literal) but small effect
+dobj_NN_stdev,-0.06401506168675178,0.41903854249757644,0.43933657002974125,Not significant
+pobj_NN_stdev,-0.17817726518666957,0.020901717627564972,0.009374705451320353,Significant (higher in literal) but small effect
+iobj_NN_stdev,-0.5700189213331766,1.0286471077815465e-12,4.675472329896631e-12,Significant (higher in literal) but small effect
+ncomp_NN_stdev,-0.2363946403133959,0.00384763726868845,0.02192941184402766,Significant (higher in literal) but small effect
+det_all_nominal_deps_struct,-0.06885961256176493,0.37331999192204335,0.49256961290059276,Not significant
+amod_all_nominal_deps_struct,0.08238056813997671,0.24330080608144616,0.16751932876789832,Not significant
+prep_all_nominal_deps_struct,-0.09880196927887497,0.1937324466719192,0.18724079923627424,Not significant
+poss_all_nominal_deps_struct,0.2777340987304013,0.00018971733103372485,0.00043334101972035166,Significant (higher in metaphorical) but small effect
+vmod_all_nominal_deps_struct,-0.26048378571927544,0.0009459453504677307,0.0001986312238285072,Significant (higher in literal) but small effect
+nn_all_nominal_deps_struct,-0.1513438790376745,0.044614229214650684,0.07927763841314177,Not significant
+rcmod_all_nominal_deps_struct,0.08661914949555369,0.25900478990771425,0.34718632812616124,Not significant
+advmod_all_nominal_deps_struct,0.3687651158680446,2.438538729830316e-06,1.9129205068467932e-06,Significant (higher in metaphorical) but small effect
+conj_and_all_nominal_deps_struct,-0.05697983105141988,0.4992549925967682,0.3392804625243837,Not significant
+conj_or_all_nominal_deps_struct,-0.27006939659212426,0.0002953949674710924,0.0014244007390698732,Significant (higher in literal) but small effect
+det_all_nominal_deps_NN_struct,-0.03185672339608351,0.6805362700748541,0.7487185278275106,Not significant
+amod_all_nominal_deps_NN_struct,0.13728680631891335,0.04981307521310789,0.0381225481492662,Significant (higher in metaphorical) but small effect
+prep_all_nominal_deps_NN_struct,-0.10901168919890755,0.15929548868850127,0.11817199014467689,Not significant
+poss_all_nominal_deps_NN_struct,0.2780039099173627,0.0001885028722350861,0.0004422466184324342,Significant (higher in metaphorical) but small effect
+vmod_all_nominal_deps_NN_struct,-0.2504811755790315,0.0018271852883200866,0.0003902691664411943,Significant (higher in literal) but small effect
+nn_all_nominal_deps_NN_struct,-0.14215940148656422,0.06109016891744083,0.10055829065715646,Not significant
+rcmod_all_nominal_deps_NN_struct,0.048540836383243316,0.5377140105237687,0.5977896628974149,Not significant
+advmod_all_nominal_deps_NN_struct,0.3777559117151655,6.36227130427143e-07,1.2849149859077678e-06,Significant (higher in metaphorical) but small effect
+conj_and_all_nominal_deps_NN_struct,-0.012197183110047414,0.8859529715010337,0.5959163527902428,Not significant
+conj_or_all_nominal_deps_NN_struct,-0.24123016400327887,0.0012355083699247568,0.0067429882083855424,Significant (higher in literal) but small effect
+det_nsubj_deps_struct,-0.13445540680486648,0.08468383048423787,0.04449459773202797,Significant (higher in literal) but small effect
+amod_nsubj_deps_struct,0.08508619009525267,0.26417813708960675,0.1634224356155164,Not significant
+prep_nsubj_deps_struct,-0.1081835532876261,0.140965245907535,0.14675118986372865,Not significant
+poss_nsubj_deps_struct,0.1074463090347027,0.138353051374615,0.19526590255078569,Not significant
+vmod_nsubj_deps_struct,-0.10573682742268684,0.1764354622806435,0.006034202163405746,Significant (higher in literal) but small effect
+nn_nsubj_deps_struct,-0.022569750380195187,0.7597843964770494,0.7682412622267711,Not significant
+rcmod_nsubj_deps_struct,0.05287183913721666,0.5130482280855226,0.6703677332076112,Not significant
+advmod_nsubj_deps_struct,0.20575676665261586,0.01139635352519047,0.04841625710441995,Significant (higher in metaphorical) but small effect
+conj_and_nsubj_deps_struct,0.09006673670609044,0.26876530008175953,0.7656637645777034,Not significant
+conj_or_nsubj_deps_struct,-0.12798891316147729,0.12313479982519687,8.932756357177802e-05,Significant (higher in literal) but small effect
+det_nsubj_deps_NN_struct,-0.09692892987839011,0.20870594915884608,0.3159360720434169,Not significant
+amod_nsubj_deps_NN_struct,0.19087106723553643,0.014392822526064886,0.019100171942606617,Significant (higher in metaphorical) but small effect
+prep_nsubj_deps_NN_struct,-0.05895180026669415,0.43189973667664827,0.2724855650424405,Not significant
+poss_nsubj_deps_NN_struct,0.1608883580945895,0.025742215286489928,0.13022604016205505,Not significant
+vmod_nsubj_deps_NN_struct,-0.07265033032171483,0.35900782537068043,0.004738628011989375,Significant (higher in literal) but small effect
+nn_nsubj_deps_NN_struct,0.008728305670996035,0.9057406055470199,0.9932670451612026,Not significant
+rcmod_nsubj_deps_NN_struct,0.11184629489543621,0.16871109009976026,0.7708213248895233,Not significant
+advmod_nsubj_deps_NN_struct,0.21188478709234249,0.007917454200443487,0.050117487660417556,Not significant
+conj_and_nsubj_deps_NN_struct,0.13346929524355378,0.10471978806988344,0.75846064471916,Not significant
+conj_or_nsubj_deps_NN_struct,-0.10911847577150668,0.18680208961752337,5.295050734566315e-05,Significant (higher in literal) but small effect
+det_dobj_deps_struct,-0.01844183431411156,0.8181933739752703,0.8891294908333681,Not significant
+amod_dobj_deps_struct,0.0682752487240296,0.36920562453674477,0.6319561510761522,Not significant
+prep_dobj_deps_struct,-0.12004816338827352,0.13165810230723043,0.03633913648980675,Significant (higher in literal) but small effect
+poss_dobj_deps_struct,0.20429136116264743,0.011201302054638165,0.015071493784301076,Significant (higher in metaphorical) but small effect
+vmod_dobj_deps_struct,-0.26985168460415526,0.0007993118220741664,0.000163226319609956,Significant (higher in literal) but small effect
+nn_dobj_deps_struct,-0.06978373094158852,0.375415069062058,0.16442414097675728,Not significant
+rcmod_dobj_deps_struct,-0.05552890348817159,0.5071902981226937,0.0716282083014322,Not significant
+advmod_dobj_deps_struct,0.196579574537502,0.01919100529300258,0.18535521771635466,Not significant
+conj_and_dobj_deps_struct,-0.11481686170953678,0.17057973062662365,0.014737850150614289,Significant (higher in literal) but small effect
+conj_or_dobj_deps_struct,-0.2229209956605433,0.0037981515223685625,0.00021592987777293202,Significant (higher in literal) but small effect
+det_dobj_deps_NN_struct,0.02884081563452768,0.7202309193479878,0.7625741909277479,Not significant
+amod_dobj_deps_NN_struct,0.10710926658427161,0.1597864262860161,0.28934864028174934,Not significant
+prep_dobj_deps_NN_struct,-0.09212487560330382,0.25204594806433817,0.08412919954589147,Not significant
+poss_dobj_deps_NN_struct,0.21737692836387942,0.006714017137489295,0.009942408844037019,Significant (higher in metaphorical) but small effect
+vmod_dobj_deps_NN_struct,-0.2495997777501055,0.0019564069842083857,0.0004609966347032832,Significant (higher in literal) but small effect
+nn_dobj_deps_NN_struct,-0.04684253129591019,0.5529524724340269,0.24875079880998907,Not significant
+rcmod_dobj_deps_NN_struct,-0.027750429870707763,0.7418316314552953,0.18769270079296474,Not significant
+advmod_dobj_deps_NN_struct,0.2029941436813647,0.014975285585414184,0.15263312031600024,Not significant
+conj_and_dobj_deps_NN_struct,-0.09394398348063575,0.2606680883175737,0.02815996692831982,Significant (higher in literal) but small effect
+conj_or_dobj_deps_NN_struct,-0.21102671894445346,0.006056798747343023,0.0004254079125327321,Significant (higher in literal) but small effect
+det_pobj_deps_struct,-0.011229427401903108,0.8851916119416093,0.7430965205848014,Not significant
+amod_pobj_deps_struct,0.07176725548900202,0.3211693292551887,0.15422239185891712,Not significant
+prep_pobj_deps_struct,-0.11784258183412552,0.15063333278079524,0.18276577458692111,Not significant
+poss_pobj_deps_struct,0.26195427780857944,0.000621006969253881,0.000264452884483567,Significant (higher in metaphorical) but small effect
+vmod_pobj_deps_struct,-0.18532512181891359,0.02240967589093126,0.0030974183713030623,Significant (higher in literal) but small effect
+nn_pobj_deps_struct,-0.24027462758288637,0.0019032185398189679,0.004457751334098716,Significant (higher in literal) but small effect
+rcmod_pobj_deps_struct,0.036202776961314825,0.6369697211410081,0.857222349224608,Not significant
+advmod_pobj_deps_struct,0.240584797330826,0.0037118136374040445,0.010631659410575494,Significant (higher in metaphorical) but small effect
+conj_and_pobj_deps_struct,-0.084750328447465,0.29628917273523403,0.2686690917526644,Not significant
+conj_or_pobj_deps_struct,-0.23187280826344153,0.0032980039151727526,0.0007661008927583107,Significant (higher in literal) but small effect
+det_pobj_deps_NN_struct,0.003302139598936293,0.965978628754825,0.8971365164639049,Not significant
+amod_pobj_deps_NN_struct,0.08695667734399573,0.23200391268665213,0.10908424239738736,Not significant
+prep_pobj_deps_NN_struct,-0.10933940510532084,0.1849702447432659,0.22417657552731307,Not significant
+poss_pobj_deps_NN_struct,0.2603102733518879,0.0006433660642152736,0.00026935769982723665,Significant (higher in metaphorical) but small effect
+vmod_pobj_deps_NN_struct,-0.1824140203953225,0.02486691371659394,0.0035680705916069783,Significant (higher in literal) but small effect
+nn_pobj_deps_NN_struct,-0.24149658620294137,0.0018691323354117122,0.004076707029410954,Significant (higher in literal) but small effect
+rcmod_pobj_deps_NN_struct,0.04098535183117595,0.5945664500910637,0.9255065303323156,Not significant
+advmod_pobj_deps_NN_struct,0.24086225109855453,0.0036953364853382588,0.010365296468831256,Significant (higher in metaphorical) but small effect
+conj_and_pobj_deps_NN_struct,-0.0820499266242824,0.3131368989388163,0.31204266125698643,Not significant
+conj_or_pobj_deps_NN_struct,-0.22671376747742966,0.004163849598601598,0.0008495689089865735,Significant (higher in literal) but small effect
+det_iobj_deps_struct,-0.21661959270932774,0.01118177015727674,4.480703802284532e-06,Significant (higher in literal) but small effect
+amod_iobj_deps_struct,-0.19602522882077983,0.016388102030406134,4.4461167491017956e-05,Significant (higher in literal) but small effect
+prep_iobj_deps_struct,-0.1182862328054968,0.12018409761637966,3.0328348911241674e-05,Significant (higher in literal) but small effect
+poss_iobj_deps_struct,0.042024907916540094,0.6138979474292701,0.004049967990070521,Significant (higher in metaphorical) but small effect
+vmod_iobj_deps_struct,-0.14522035537055955,0.07753762735254152,0.0028519472056274826,Significant (higher in literal) but small effect
+nn_iobj_deps_struct,-0.05726692680527694,0.4942474401319379,0.00011148783047027543,Significant (higher in literal) but small effect
+rcmod_iobj_deps_struct,0.1645905247739238,0.04580521048013962,0.28433161482530667,Not significant
+advmod_iobj_deps_struct,-0.027778263514281476,0.7383458668740213,0.00010806162244702745,Significant (higher in literal) but small effect
+conj_and_iobj_deps_struct,-0.15516909082077734,0.06018601935944366,0.0001915334988128137,Significant (higher in literal) but small effect
+conj_or_iobj_deps_struct,-0.24535221669826696,0.00316372965908089,9.282397426233204e-05,Significant (higher in literal) but small effect
+det_iobj_deps_NN_struct,-0.321466281051411,0.00014510974187676543,1.5517020713627317e-05,Significant (higher in literal) but small effect
+amod_iobj_deps_NN_struct,-0.2522755603187141,0.0020127377377592284,1.0530212204771634e-05,Significant (higher in literal) but small effect
+prep_iobj_deps_NN_struct,-0.11935578704386282,0.10172493400680499,3.136985997882179e-05,Significant (higher in literal) but small effect
+poss_iobj_deps_NN_struct,0.04851465494197638,0.5604927842253706,0.010347737434690677,Significant (higher in metaphorical) but small effect
+vmod_iobj_deps_NN_struct,-0.1453686960849022,0.07723476938477347,0.0028519472056274826,Significant (higher in literal) but small effect
+nn_iobj_deps_NN_struct,-0.09156081900037191,0.27712032800511455,8.590365596578892e-06,Significant (higher in literal) but small effect
+rcmod_iobj_deps_NN_struct,0.1532567047827359,0.06302125190858004,0.28457109960222515,Not significant
+advmod_iobj_deps_NN_struct,-0.1656525597430989,0.04603659622019109,2.737577656600386e-05,Significant (higher in literal) but small effect
+conj_and_iobj_deps_NN_struct,-0.17609254479104658,0.029595767846319582,0.00014839260809638966,Significant (higher in literal) but small effect
+conj_or_iobj_deps_NN_struct,-0.208914981988901,0.011245464826016672,6.458194249413151e-05,Significant (higher in literal) but small effect
+cl_av_deps,0.3203678547682106,5.386861009197289e-05,4.213945266782763e-05,Significant (higher in metaphorical) but small effect
+cl_ndeps_std_dev,0.13285243411032277,0.10535518400702125,0.10310119029207085,Not significant
+acomp_per_cl,-0.1692051352267529,0.027291288588788033,0.02001760063873042,Significant (higher in literal) but small effect
+advcl_per_cl,0.13985959494145322,0.07243740017798281,0.11255890492121322,Not significant
+agent_per_cl,-0.030868081119895495,0.6938009803181937,0.06870169787328545,Not significant
+cc_per_cl,0.18450654000206218,0.02756394779594891,0.09905546099081151,Not significant
+ccomp_per_cl,-0.09500761470902744,0.22443140759256752,0.09629626403822163,Not significant
+conj_per_cl,0.09575825520036238,0.24508262432207445,0.9292614000143329,Not significant
+csubj_per_cl,0.023233543235738525,0.7886241917634278,0.9256248166059318,Not significant
+csubjpass_per_cl,0.03780956091654231,0.6459623769352174,7.553443224640471e-05,Significant (higher in metaphorical) but small effect
+dep_per_cl,0.1544743646529239,0.05113884680307211,0.22314896805958317,Not significant
+discourse_per_cl,-0.022430116121085128,0.7747078882548954,0.0024227099032964852,Significant (higher in literal) but small effect
+dobj_per_cl,-0.04077210111848722,0.6142748695287197,0.44454678872276576,Not significant
+expl_per_cl,-0.027183050396906334,0.7436474617760422,0.09562257795202377,Not significant
+iobj_per_cl,0.11220055980822091,0.17149222406992912,0.9553170105130971,Not significant
+mark_per_cl,-0.13629999333833467,0.09691414562733602,0.08161505211752905,Not significant
+ncomp_per_cl,0.16168538946208488,0.02836464636693647,0.026007169570709636,Significant (higher in metaphorical) but small effect
+neg_per_cl,-0.00324251732571573,0.9686835086442229,0.6095579653050025,Not significant
+nsubj_per_cl,0.3830507415674532,1.449412475709081e-06,1.5271975805482184e-06,Significant (higher in metaphorical) but small effect
+nsubjpass_per_cl,-0.38996747437042356,1.2475011233002277e-06,1.5734469408982685e-07,Significant (higher in literal) but small effect
+parataxis_per_cl,0.12402688456138566,0.13564077504167332,0.38253929648595597,Not significant
+pcomp_per_cl,-0.17769494186153212,0.03387408300236997,1.0765934689099492e-07,Significant (higher in literal) but small effect
+prep_per_cl,0.08408358323685843,0.281209549344321,0.3335118231649552,Not significant
+prepc_per_cl,-0.115686122438456,0.16043159422370615,0.03712960707164589,Significant (higher in literal) but small effect
+prt_per_cl,0.3032457967441562,0.00032068060568613937,0.0003754960768525461,Significant (higher in metaphorical) but small effect
+tmod_per_cl,0.14722097407062235,0.0619206441132946,0.4039168130984774,Not significant
+xcomp_per_cl,-0.03855736304292616,0.6417142232597668,0.19596532823031543,Not significant
+xsubj_per_cl,0.0,,,Not significant
+advmod_per_cl,0.2937973590699213,0.00016990443583138681,0.0001541980775345134,Significant (higher in metaphorical) but small effect
+aux_per_cl,0.05752661745860624,0.4828674674101725,0.9684975864980885,Not significant
+auxpass_per_cl,-0.3741220944135394,2.048511355326958e-06,4.1455040918013174e-07,Significant (higher in literal) but small effect
+modal_per_cl,-0.30212669630068056,0.00024055682332730654,5.874483460032967e-06,Significant (higher in literal) but small effect
+acad_av_lemma_freq,0.0919758000549058,0.21956813242334877,0.15657842290862717,Not significant
+acad_av_construction_freq,-0.16828393433977323,0.04282852664442867,0.006071446275646802,Significant (higher in literal) but small effect
+acad_av_lemma_construction_freq,0.16668242223543,0.03113571765013531,0.024209802175923417,Significant (higher in metaphorical) but small effect
+acad_av_approx_collexeme,-0.02580456710294806,0.7534453353769455,0.053722705761454666,Not significant
+acad_av_faith_verb_cue,-0.22197193988286557,0.004320701016443562,0.0010737015399909552,Significant (higher in literal) but small effect
+acad_av_faith_const_cue,0.011344160233248624,0.8938366568893886,0.39292513994400635,Not significant
+acad_av_delta_p_verb_cue,-0.23783627360924392,0.0024538195599045133,0.002022946322023046,Significant (higher in literal) but small effect
+acad_av_delta_p_const_cue,-0.0587322819541609,0.48735710526146925,0.0754291746485343,Not significant
+acad_av_lemma_freq_log,-0.114165209542135,0.1568744865818585,0.25377118751514305,Not significant
+acad_av_construction_freq_log,-0.2242692277797022,0.006548995641850397,0.000767369417640346,Significant (higher in literal) but small effect
+acad_av_lemma_construction_freq_log,-0.03479088500117813,0.6518246512649967,0.6048382810109885,Not significant
+acad_av_lemma_freq_type,0.6582701615157451,1.8454734199963356e-16,8.943320817904584e-18,Significant (higher in metaphorical) but small effect
+acad_av_construction_freq_type,0.44517732553352474,8.436089121491147e-08,5.143490974783259e-08,Significant (higher in metaphorical) but small effect
+acad_av_lemma_construction_freq_type,0.6916991393563969,9.135696722322874e-17,2.110574266916713e-19,Significant (higher in metaphorical) but small effect
+acad_av_approx_collexeme_type,0.04717398015396018,0.5698127185612003,0.7006353410099897,Not significant
+acad_av_faith_verb_cue_type,0.45516373997846826,7.193337104967713e-09,2.45307976088047e-08,Significant (higher in metaphorical) but small effect
+acad_av_faith_const_cue_type,0.18854704937321182,0.02686903251464344,0.06707400060970281,Not significant
+acad_av_delta_p_verb_cue_type,0.3954666354583347,4.967482686487166e-07,9.643329599144697e-07,Significant (higher in metaphorical) but small effect
+acad_av_delta_p_const_cue_type,0.09132476978484048,0.28150467509346344,0.7946735147542566,Not significant
+acad_collexeme_ratio,0.03126503019642152,0.7047908016558637,0.2961618180194966,Not significant
+acad_collexeme_ratio_type,0.1341973873109806,0.10231122888999523,0.21479963622294285,Not significant
+acad_lemma_ttr,0.8595084792851437,1.1809177729217885e-25,3.2316545113425613e-21,Significant (higher in metaphorical) but small effect
+acad_construction_ttr,0.8564581964552729,1.6924002930998918e-25,1.4562814492115415e-21,Significant (higher in metaphorical) but small effect
+acad_lemma_construction_ttr,0.8054485185538426,9.373814144530567e-23,4.0917081935912203e-19,Significant (higher in metaphorical) but small effect
+acad_lemma_attested,-0.2301849981043368,0.0065545841734576445,0.1183462011288378,Not significant
+acad_construction_attested,-0.25220182392601787,0.0015308795476836029,0.005318151835824038,Significant (higher in literal) but small effect
+acad_lemma_construction_attested,-0.3148581495869712,7.729090504883439e-05,6.970673174921809e-05,Significant (higher in literal) but small effect
+news_av_lemma_freq,0.10154730878035442,0.1713696533746789,0.11134056191706511,Not significant
+news_av_construction_freq,-0.11040673723470594,0.18697120086738397,0.07067660415878176,Not significant
+news_av_lemma_construction_freq,0.17649676254386717,0.02275874943569601,0.018153483628553277,Significant (higher in metaphorical) but small effect
+news_av_approx_collexeme,-0.07707912627935548,0.3490769324419408,0.026646781788315473,Significant (higher in literal) but small effect
+news_av_faith_verb_cue,-0.21458782368278068,0.00734045840928603,0.005111368713537844,Significant (higher in literal) but small effect
+news_av_faith_const_cue,0.09001584422431276,0.2822934178913232,0.7972781911242383,Not significant
+news_av_delta_p_verb_cue,-0.2053868437333392,0.01099549585847138,0.009066006425387393,Significant (higher in literal) but small effect
+news_av_delta_p_const_cue,0.016395443139403252,0.8447791389991914,0.4333685791477768,Not significant
+news_av_lemma_freq_log,0.08564259023400597,0.2681927904144836,0.11286512696648339,Not significant
+news_av_construction_freq_log,-0.16955386740487888,0.03825618789094196,0.033882609607753474,Significant (higher in literal) but small effect
+news_av_lemma_construction_freq_log,0.06630340171828156,0.39438520128204857,0.33283734460547043,Not significant
+news_av_lemma_freq_type,0.6786732794646035,1.885943839106934e-17,1.6967146391334671e-18,Significant (higher in metaphorical) but small effect
+news_av_construction_freq_type,0.4911869877435163,2.9289452901530853e-09,1.9024315426870965e-09,Significant (higher in metaphorical) but small effect
+news_av_lemma_construction_freq_type,0.7024585830919197,3.449469568713645e-17,1.1240189832187244e-19,Significant (higher in metaphorical) but small effect
+news_av_approx_collexeme_type,0.11802169980497654,0.16662188583712778,0.5982584081106327,Not significant
+news_av_faith_verb_cue_type,0.43537171240740935,5.4522690809945357e-08,1.4947741929708004e-07,Significant (higher in metaphorical) but small effect
+news_av_faith_const_cue_type,0.31698708989407876,0.0002549354239995608,0.002660336196438004,Significant (higher in metaphorical) but small effect
+news_av_delta_p_verb_cue_type,0.41122863858496683,3.5805650259450594e-07,1.4273632863599633e-06,Significant (higher in metaphorical) but small effect
+news_av_delta_p_const_cue_type,0.2078665210270843,0.016521185724209898,0.13580186475943332,Not significant
+news_collexeme_ratio,0.05788124175422517,0.4649108376639076,0.459157606097788,Not significant
+news_collexeme_ratio_type,0.23629737839374731,0.003446649193023399,0.035503939989963824,Significant (higher in metaphorical) but small effect
+news_lemma_ttr,0.8629593215283854,7.723261395879546e-26,2.264620502522242e-21,Significant (higher in metaphorical) but small effect
+news_construction_ttr,0.8614241791477597,9.610737713234854e-26,1.1977377389005077e-21,Significant (higher in metaphorical) but small effect
+news_lemma_construction_ttr,0.8238758946273537,1.2872941108159552e-23,7.229462764251156e-20,Significant (higher in metaphorical) but small effect
+news_lemma_attested,0.06093247259699398,0.46342591847031533,0.0892383504021373,Not significant
+news_construction_attested,-0.19236115412416321,0.01542089885296099,0.06022959122541189,Not significant
+news_lemma_construction_attested,-0.15425516157932617,0.047373499504978274,0.16421933692819712,Not significant
+mag_av_lemma_freq,0.10652546489316266,0.15279921843818697,0.10598632277356262,Not significant
+mag_av_construction_freq,-0.12990194522190607,0.12176863855561383,0.03428189120380443,Significant (higher in literal) but small effect
+mag_av_lemma_construction_freq,0.1639741744802175,0.034852616207002786,0.022361993413018585,Significant (higher in metaphorical) but small effect
+mag_av_approx_collexeme,-0.04879140857719248,0.5570324976508066,0.07476612958992217,Not significant
+mag_av_faith_verb_cue,-0.22792791585665834,0.004073608891708395,0.0010433528290830758,Significant (higher in literal) but small effect
+mag_av_faith_const_cue,0.11059945127806085,0.19002515165348388,0.7682412622267711,Not significant
+mag_av_delta_p_verb_cue,-0.21696960303551566,0.006691006467852766,0.005418714132508971,Significant (higher in literal) but small effect
+mag_av_delta_p_const_cue,0.03325713236917746,0.6928304818277837,0.37887122532710804,Not significant
+mag_av_lemma_freq_log,0.10051259711368181,0.19451644953722125,0.058589546264633065,Not significant
+mag_av_construction_freq_log,-0.1866799720618462,0.025995693446254367,0.009246476087885857,Significant (higher in literal) but small effect
+mag_av_lemma_construction_freq_log,0.05515166087739527,0.4823919407104712,0.2974120169444211,Not significant
+mag_av_lemma_freq_type,0.6786861002230793,1.805123805732991e-17,1.812416555733439e-18,Significant (higher in metaphorical) but small effect
+mag_av_construction_freq_type,0.47716257207116497,8.32032964863504e-09,3.742022335653047e-09,Significant (higher in metaphorical) but small effect
+mag_av_lemma_construction_freq_type,0.6857592795996031,1.8961837451752694e-16,1.6596592460307904e-19,Significant (higher in metaphorical) but small effect
+mag_av_approx_collexeme_type,0.08260543479634469,0.3310569205794698,0.7894710508264646,Not significant
+mag_av_faith_verb_cue_type,0.42995119244378427,7.763882108726097e-08,1.4622344013473187e-07,Significant (higher in metaphorical) but small effect
+mag_av_faith_const_cue_type,0.31365066271992026,0.00027471697610675927,0.001759863620432087,Significant (higher in metaphorical) but small effect
+mag_av_delta_p_verb_cue_type,0.4103041305852847,3.379781404797909e-07,4.1455040918013174e-07,Significant (higher in metaphorical) but small effect
+mag_av_delta_p_const_cue_type,0.2021865787134393,0.018596076523958165,0.16731163081003786,Not significant
+mag_collexeme_ratio,0.07201071839066787,0.38508835782488027,0.409203660485261,Not significant
+mag_collexeme_ratio_type,0.21202914393491334,0.011235934437491239,0.02954418545888759,Significant (higher in metaphorical) but small effect
+mag_lemma_ttr,0.8621526611893684,8.520531976704467e-26,2.2941480082535155e-21,Significant (higher in metaphorical) but small effect
+mag_construction_ttr,0.8620125907261884,9.582267843676046e-26,1.2214003091227628e-21,Significant (higher in metaphorical) but small effect
+mag_lemma_construction_ttr,0.8208243208765107,1.5518669831279612e-23,8.087069282355628e-20,Significant (higher in metaphorical) but small effect
+mag_lemma_attested,-0.06463534194847798,0.4417832208028899,0.511359939903292,Not significant
+mag_construction_attested,-0.1772309288140834,0.02372542410776632,0.062475348724673224,Not significant
+mag_lemma_construction_attested,-0.1542262533320682,0.047777679980864705,0.22701992678051042,Not significant
+fic_av_lemma_freq,0.11568425229575109,0.11821639935784947,0.07927763841314177,Not significant
+fic_av_construction_freq,-0.08178032132969877,0.334319191403057,0.16772722034264642,Not significant
+fic_av_lemma_construction_freq,0.13296941134566573,0.08876879450815058,0.0601374895883853,Not significant
+fic_av_approx_collexeme,-0.017372993555552038,0.8352721546934663,0.09244124646750301,Not significant
+fic_av_faith_verb_cue,-0.21336720788032756,0.006976570287922754,0.003560362174742538,Significant (higher in literal) but small effect
+fic_av_faith_const_cue,0.19964384301723506,0.0189492404603213,0.20258200360100198,Not significant
+fic_av_delta_p_verb_cue,-0.1875950986495344,0.017926576954230236,0.014143045040883479,Significant (higher in literal) but small effect
+fic_av_delta_p_const_cue,0.14293896147827367,0.09530297830723126,0.7106664371355461,Not significant
+fic_av_lemma_freq_log,0.24705557483810653,0.0010380007559618288,0.0005891984465289282,Significant (higher in metaphorical) but small effect
+fic_av_construction_freq_log,-0.10918035571708623,0.18439561205494825,0.11149228320178393,Not significant
+fic_av_lemma_construction_freq_log,0.13238815959693986,0.08378327067375771,0.07688224284348331,Not significant
+fic_av_lemma_freq_type,0.6851653251555831,7.833327349921109e-18,9.014634967093826e-19,Significant (higher in metaphorical) but small effect
+fic_av_construction_freq_type,0.5184752069173952,4.2311440638521105e-10,1.2434450009127475e-10,Significant (higher in metaphorical) but small effect
+fic_av_lemma_construction_freq_type,0.6935106641074675,8.986124689609715e-17,1.1811584450150914e-19,Significant (higher in metaphorical) but small effect
+fic_av_approx_collexeme_type,0.11269422709648916,0.18617538477045978,0.829755060391874,Not significant
+fic_av_faith_verb_cue_type,0.3872410776901587,1.1936787259748482e-06,4.6616992160794046e-06,Significant (higher in metaphorical) but small effect
+fic_av_faith_const_cue_type,0.3662035772310147,2.4969501641222587e-05,0.0006820161586112884,Significant (higher in metaphorical) but small effect
+fic_av_delta_p_verb_cue_type,0.38329744277614747,1.730044726443102e-06,3.631217364368267e-06,Significant (higher in metaphorical) but small effect
+fic_av_delta_p_const_cue_type,0.2860057675523696,0.0010835280343202834,0.02455180254419605,Significant (higher in metaphorical) but small effect
+fic_collexeme_ratio,0.09520812089928524,0.23679765100865666,0.7646334897252042,Not significant
+fic_collexeme_ratio_type,0.2950528889613722,0.00028528743743940106,0.000619256927236072,Significant (higher in metaphorical) but small effect
+fic_lemma_ttr,0.8620204065629481,8.417240419156929e-26,2.8218300807389877e-21,Significant (higher in metaphorical) but small effect
+fic_construction_ttr,0.8640626490816761,5.715286503799335e-26,7.4314782603186275e-22,Significant (higher in metaphorical) but small effect
+fic_lemma_construction_ttr,0.8354194348724917,2.557617952345584e-24,1.3997325608329434e-20,Significant (higher in metaphorical) but small effect
+fic_lemma_attested,0.012540435421083535,0.880057700021849,0.03381754426785981,Significant (higher in metaphorical) but small effect
+fic_construction_attested,-0.15453396911629821,0.048303947290927886,0.0750970545984312,Not significant
+fic_lemma_construction_attested,0.03949991550652164,0.6111220114315956,0.29709913698884427,Not significant
+all_av_lemma_freq,0.10298371827484601,0.16593634897325257,0.11518276736928074,Not significant
+all_av_construction_freq,-0.12049135050484774,0.14966153489804432,0.04514236720826672,Significant (higher in literal) but small effect
+all_av_lemma_construction_freq,0.16315296893167291,0.0351841400471157,0.020234697672229997,Significant (higher in metaphorical) but small effect
+all_av_approx_collexeme,-0.038940780966350896,0.6393758921728154,0.07927763841314177,Not significant
+all_av_faith_verb_cue,-0.21008544568689014,0.007554396347433028,0.002353152093433682,Significant (higher in literal) but small effect
+all_av_faith_const_cue,0.11533744371659894,0.17822656814398857,0.844521532306217,Not significant
+all_av_delta_p_verb_cue,-0.21447246475515294,0.006813896453138641,0.005874613905790353,Significant (higher in literal) but small effect
+all_av_delta_p_const_cue,0.04255973691772705,0.6184534828080479,0.34961554399521166,Not significant
+all_av_lemma_freq_log,0.06850735776724982,0.3713789089072942,0.13056924149730456,Not significant
+all_av_construction_freq_log,-0.15325850988656947,0.05852491513490518,0.026739255094838064,Significant (higher in literal) but small effect
+all_av_lemma_construction_freq_log,0.04790677381174255,0.5336635574858137,0.42744774685992004,Not significant
+all_av_lemma_freq_type,0.6775965991773909,1.8279085505090156e-17,1.7069242900387734e-18,Significant (higher in metaphorical) but small effect
+all_av_construction_freq_type,0.4936542722882719,2.523603297846525e-09,1.3447418241934789e-09,Significant (higher in metaphorical) but small effect
+all_av_lemma_construction_freq_type,0.6818183935706567,2.9085451252073177e-16,1.5796850676606633e-19,Significant (higher in metaphorical) but small effect
+all_av_approx_collexeme_type,0.09830236545150287,0.24734248925899024,0.7167093725720248,Not significant
+all_av_faith_verb_cue_type,0.4667534630449887,5.543660319044489e-09,9.35835155171758e-09,Significant (higher in metaphorical) but small effect
+all_av_faith_const_cue_type,0.3335575787731676,0.00013055717351712095,0.0019241634104945867,Significant (higher in metaphorical) but small effect
+all_av_delta_p_verb_cue_type,0.43908213557118364,4.2852315666964407e-08,7.169542232803159e-08,Significant (higher in metaphorical) but small effect
+all_av_delta_p_const_cue_type,0.2274193293692572,0.008890423514961603,0.14693923696441422,Not significant
+all_collexeme_ratio,0.06761063979230253,0.4090135901680577,0.5949807023354922,Not significant
+all_collexeme_ratio_type,0.2410274779444874,0.0032243595262552095,0.004290659854262749,Significant (higher in metaphorical) but small effect
+all_lemma_ttr,0.8623956310352039,8.482381273539582e-26,2.369643433898666e-21,Significant (higher in metaphorical) but small effect
+all_construction_ttr,0.861289571231516,9.38234066085499e-26,1.1899514558137601e-21,Significant (higher in metaphorical) but small effect
+all_lemma_construction_ttr,0.8174762662660278,1.7945193821848005e-23,9.805938334262727e-20,Significant (higher in metaphorical) but small effect
+all_lemma_attested,0.04220151731055934,0.6064124054283297,0.017319268401845923,Significant (higher in metaphorical) but small effect
+all_construction_attested,-0.22904084138109848,0.004553593099051184,0.01831595749029512,Significant (higher in literal) but small effect
+all_lemma_construction_attested,-0.23091022549222578,0.0034862257962102153,0.015015428690463477,Significant (higher in literal) but small effect
+all_av_lemma_freq_stdev,0.059795548474843294,0.4298598121957188,0.3033985813551512,Not significant
+all_av_construction_freq_stdev,-0.24671277310229797,0.0020700498264182173,0.002131177317581163,Significant (higher in literal) but small effect
+all_av_lemma_construction_freq_stdev,0.16969776154612054,0.029275706638469644,0.018791277523103726,Significant (higher in metaphorical) but small effect
+all_av_approx_collexeme_stdev,-0.1875984465853462,0.024862863275423818,0.0022906029489649232,Significant (higher in literal) but small effect
+all_av_faith_verb_cue_stdev,-0.24129797580763268,0.002264637665795208,0.0008773150508972178,Significant (higher in literal) but small effect
+all_av_faith_const_cue_stdev,-0.13972147614137606,0.09564762837115234,0.009356290374991411,Significant (higher in literal) but small effect
+all_av_delta_p_verb_cue_stdev,-0.25473347192555845,0.0016773947562424888,0.0007433228634820204,Significant (higher in literal) but small effect
+all_av_delta_p_const_cue_stdev,-0.13888489290427722,0.0978232429803,0.010197782806436479,Significant (higher in literal) but small effect
+acad_av_lemma_freq_stdev,0.08273034703976448,0.27167525550179394,0.18611452990598776,Not significant
+acad_av_construction_freq_stdev,-0.2637759706637992,0.0009071633497064511,0.0007042167133552851,Significant (higher in literal) but small effect
+acad_av_lemma_construction_freq_stdev,0.13649377277768743,0.0849676904568017,0.03787221956074705,Significant (higher in metaphorical) but small effect
+acad_av_approx_collexeme_stdev,-0.170628390673188,0.04352810433046194,0.0019154064267242385,Significant (higher in literal) but small effect
+acad_av_faith_verb_cue_stdev,-0.2727466732112912,0.0004241781391424487,9.552950874486617e-05,Significant (higher in literal) but small effect
+acad_av_faith_const_cue_stdev,-0.15234087190442402,0.06819989061667624,0.02830555252464894,Significant (higher in literal) but small effect
+acad_av_delta_p_verb_cue_stdev,-0.2985793781808772,0.00021056513253397662,0.00015886687987107652,Significant (higher in literal) but small effect
+acad_av_delta_p_const_cue_stdev,-0.1593319425488906,0.05517688991672333,0.032107574672515356,Significant (higher in literal) but small effect
+news_av_lemma_freq_stdev,0.05730890356174681,0.44941321967987113,0.32216559088302454,Not significant
+news_av_construction_freq_stdev,-0.23159564325998994,0.0038700666083755428,0.004611203636194865,Significant (higher in literal) but small effect
+news_av_lemma_construction_freq_stdev,0.19992212933118125,0.00964508341816226,0.008209996111731064,Significant (higher in metaphorical) but small effect
+news_av_approx_collexeme_stdev,-0.23999504031463118,0.00338856952935309,0.0006131334069923459,Significant (higher in literal) but small effect
+news_av_faith_verb_cue_stdev,-0.21118389796629225,0.00921430883318893,0.002964429641856761,Significant (higher in literal) but small effect
+news_av_faith_const_cue_stdev,-0.18888914809402635,0.019674554456845423,0.008871127899969636,Significant (higher in literal) but small effect
+news_av_delta_p_verb_cue_stdev,-0.23318357707641568,0.004764831858084708,0.0012498135574351837,Significant (higher in literal) but small effect
+news_av_delta_p_const_cue_stdev,-0.18414464264518776,0.0224731629108302,0.010138337561762458,Significant (higher in literal) but small effect
+mag_av_lemma_freq_stdev,0.06223426951204706,0.41157847354530286,0.2905794937249232,Not significant
+mag_av_construction_freq_stdev,-0.2504337508636776,0.0017328870447890067,0.0016122773023603983,Significant (higher in literal) but small effect
+mag_av_lemma_construction_freq_stdev,0.17622105513816766,0.023957545470080863,0.01743873717209391,Significant (higher in metaphorical) but small effect
+mag_av_approx_collexeme_stdev,-0.19248099400490365,0.02127014063678355,0.0017965910721007613,Significant (higher in literal) but small effect
+mag_av_faith_verb_cue_stdev,-0.21735548682009798,0.005898603070186639,0.0015039041964909348,Significant (higher in literal) but small effect
+mag_av_faith_const_cue_stdev,-0.16982206485309492,0.0400055759833401,0.0031042084511289742,Significant (higher in literal) but small effect
+mag_av_delta_p_verb_cue_stdev,-0.22681695668246815,0.005234712001345631,0.001496923528699218,Significant (higher in literal) but small effect
+mag_av_delta_p_const_cue_stdev,-0.16972027555402186,0.03890180496645997,0.0037901662128727058,Significant (higher in literal) but small effect
+fic_av_lemma_freq_stdev,0.05130207682170533,0.49929661875581277,0.35031158247667904,Not significant
+fic_av_construction_freq_stdev,-0.2064964146676804,0.012107566041763327,0.020380567762942607,Significant (higher in literal) but small effect
+fic_av_lemma_construction_freq_stdev,0.13167464154454894,0.09328706425099406,0.059587328948134226,Not significant
+fic_av_approx_collexeme_stdev,-0.23034504129016606,0.005923749676240951,0.0002658456481185532,Significant (higher in literal) but small effect
+fic_av_faith_verb_cue_stdev,-0.16938136862473424,0.033500842896015244,0.019378462010122874,Significant (higher in literal) but small effect
+fic_av_faith_const_cue_stdev,-0.16412404363045904,0.051408644780917695,0.003956419055726223,Significant (higher in literal) but small effect
+fic_av_delta_p_verb_cue_stdev,-0.18508414798642364,0.021786062755450177,0.01149779004268532,Significant (higher in literal) but small effect
+fic_av_delta_p_const_cue_stdev,-0.1658293084052,0.04698888615565102,0.004236237754588442,Significant (higher in literal) but small effect
+all_av_lemma_freq_log_stdev,0.059795548474843294,0.4298598121957188,0.3033985813551512,Not significant
+all_av_construction_freq_log_stdev,-0.24671277310229797,0.0020700498264182173,0.002131177317581163,Significant (higher in literal) but small effect
+all_av_lemma_construction_freq_log_stdev,0.16969776154612054,0.029275706638469644,0.018791277523103726,Significant (higher in metaphorical) but small effect
+acad_av_lemma_freq_log_stdev,0.08273034703976448,0.27167525550179394,0.18611452990598776,Not significant
+acad_av_construction_freq_log_stdev,-0.2637759706637992,0.0009071633497064511,0.0007042167133552851,Significant (higher in literal) but small effect
+acad_av_lemma_construction_freq_log_stdev,0.13649377277768743,0.0849676904568017,0.03787221956074705,Significant (higher in metaphorical) but small effect
+news_av_lemma_freq_log_stdev,0.05730890356174681,0.44941321967987113,0.32216559088302454,Not significant
+news_av_construction_freq_log_stdev,-0.23159564325998994,0.0038700666083755428,0.004611203636194865,Significant (higher in literal) but small effect
+news_av_lemma_construction_freq_log_stdev,0.19992212933118125,0.00964508341816226,0.008209996111731064,Significant (higher in metaphorical) but small effect
+mag_av_lemma_freq_log_stdev,0.06223426951204706,0.41157847354530286,0.2905794937249232,Not significant
+mag_av_construction_freq_log_stdev,-0.2504337508636776,0.0017328870447890067,0.0016122773023603983,Significant (higher in literal) but small effect
+mag_av_lemma_construction_freq_log_stdev,0.17622105513816766,0.023957545470080863,0.01743873717209391,Significant (higher in metaphorical) but small effect
+fic_av_lemma_freq_log_stdev,0.05130207682170533,0.49929661875581277,0.35031158247667904,Not significant
+fic_av_construction_freq_log_stdev,-0.2064964146676804,0.012107566041763327,0.020380567762942607,Significant (higher in literal) but small effect
+fic_av_lemma_construction_freq_log_stdev,0.13167464154454894,0.09328706425099406,0.059587328948134226,Not significant

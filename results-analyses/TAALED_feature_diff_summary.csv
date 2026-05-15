@@ -1,0 +1,39 @@
+Feature,Mean Difference,Paired t-test p,Wilcoxon p,Notes
+basic_ntokens,-0.7798638356326955,1.7976842365057763e-22,9.342465108774047e-23,Significant (higher in literal) but small effect
+basic_ntypes,-0.8143337152852834,9.320589918130936e-24,9.014986486609285e-22,Significant (higher in literal) but small effect
+basic_ncontent_tokens,-0.7782979606432865,1.6815155917741261e-22,8.281024594806144e-23,Significant (higher in literal) but small effect
+basic_ncontent_types,-0.8130191727832705,1.1144005175721753e-23,7.780233727482444e-22,Significant (higher in literal) but small effect
+basic_nfunction_tokens,-0.7740647454997809,4.1895673749535244e-22,1.6479135671798214e-22,Significant (higher in literal) but small effect
+basic_nfunction_types,-0.8090312778183052,1.1063400912030677e-23,1.6504061160419132e-20,Significant (higher in literal) but small effect
+lexical_density_types,-0.8262091731639337,2.0819616908429154e-24,1.0443313749600944e-21,Significant (higher in literal) but small effect
+lexical_density_tokens,-0.1618933888393857,0.02829050857151527,0.04364311981428017,Significant (higher in literal) but small effect
+simple_ttr_aw,0.8515458677376417,1.2698654125965798e-25,1.1517649575020929e-21,Significant (higher in metaphorical) but small effect
+simple_ttr_cw,0.8631465819435697,6.560497190725261e-27,2.207838186663325e-22,Significant (higher in metaphorical) but small effect
+simple_ttr_fw,0.7743023262114539,4.177580168746137e-21,3.678438913399757e-20,Significant (higher in metaphorical) but small effect
+root_ttr_aw,-0.7181191759010581,1.3951840252613109e-18,1.0783291657663599e-16,Significant (higher in literal) but small effect
+root_ttr_cw,-0.7406310856915737,1.352017376812781e-19,2.7712714442905374e-17,Significant (higher in literal) but small effect
+root_ttr_fw,0.8826511702751854,7.036240747422731e-28,1.6580031319507198e-23,Significant (higher in metaphorical) but small effect
+log_ttr_aw,0.863095453541091,5.400344921333584e-27,1.593960404459026e-22,Significant (higher in metaphorical) but small effect
+log_ttr_cw,0.8640543816509507,1.5385732304091305e-27,6.2463799792396e-23,Significant (higher in metaphorical) but small effect
+log_ttr_fw,0.8757090847525524,3.856777196629151e-27,4.46060884194742e-23,Significant (higher in metaphorical) but small effect
+maas_ttr_aw,-0.5175309522081979,4.4316794488601635e-11,1.773556503588917e-11,Significant (higher in literal) but small effect
+maas_ttr_cw,-0.8083386778015191,1.0575028573696786e-24,6.596102590943709e-21,Significant (higher in literal) but small effect
+maas_ttr_fw,-0.09129080960070096,0.2376550474293075,0.8715549235797292,Not significant
+mattr50_aw,0.34277993846218363,1.023137920001512e-05,4.892689021961322e-06,Significant (higher in metaphorical) but small effect
+mattr50_cw,0.19970958449321932,0.010066890114712231,5.297619915523194e-05,Significant (higher in metaphorical) but small effect
+mattr50_fw,0.42232893003726746,3.6341368448194824e-08,7.066085064701441e-07,Significant (higher in metaphorical) but small effect
+msttr50_aw,0.33095201831613497,1.8759377681812143e-05,1.0630208375426158e-05,Significant (higher in metaphorical) but small effect
+msttr50_cw,0.15406896267336825,0.04785540717257891,0.0006753169794862512,Significant (higher in metaphorical) but small effect
+msttr50_fw,0.40641580034878433,1.4032553818113006e-07,1.5118057506005768e-06,Significant (higher in metaphorical) but small effect
+hdd42_aw,0.07668416412838021,0.3348496135112702,0.15876200404889007,Not significant
+hdd42_cw,-0.17760208253631432,0.0316738910095908,0.0022095726972027247,Significant (higher in literal) but small effect
+hdd42_fw,0.20214069074620333,0.011202714823854343,0.00043223966769305087,Significant (higher in metaphorical) but small effect
+mtld_original_aw,0.347518633322886,7.755296757713405e-06,5.818419041253113e-06,Significant (higher in metaphorical) but small effect
+mtld_original_cw,-0.1597641110338749,0.04111941837601,0.031356418970956756,Significant (higher in literal) but small effect
+mtld_original_fw,0.39163706266305576,2.555256106540289e-07,3.196470361888481e-06,Significant (higher in metaphorical) but small effect
+mtld_ma_bi_aw,0.2013040320354857,0.010169306503966876,0.0037820226908661767,Significant (higher in metaphorical) but small effect
+mtld_ma_bi_cw,-0.42637251974761214,1.5356629242324647e-07,1.4989321549495524e-06,Significant (higher in literal) but small effect
+mtld_ma_bi_fw,0.2938162205615704,9.872082460712572e-05,0.0003045643428400295,Significant (higher in metaphorical) but small effect
+mtld_ma_wrap_aw,0.27430875388968134,0.0005089130626305895,0.0003309524806164891,Significant (higher in metaphorical) but small effect
+mtld_ma_wrap_cw,-0.27956252930063086,0.0004717281047068679,0.0005877317771753083,Significant (higher in literal) but small effect
+mtld_ma_wrap_fw,0.3402960320691871,7.293254928757816e-06,3.640601204391064e-05,Significant (higher in metaphorical) but small effect

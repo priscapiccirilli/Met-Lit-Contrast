@@ -1,0 +1,169 @@
+Feature,Mean Difference,Paired t-test p,Wilcoxon p,Notes
+lemma_ttr,0.8482038976585684,2.9733341136039753e-25,2.628131644473233e-21,Significant (higher in metaphorical) but small effect
+lemma_mattr,0.38650968679529873,3.935183106854447e-07,3.508067961832695e-07,Significant (higher in metaphorical) but small effect
+lexical_density_tokens,-0.15846699396085911,0.0357596093752701,0.07904692171092316,Not significant
+lexical_density_types,-0.7378422411841388,6.015934540999963e-20,2.13048514109093e-18,Significant (higher in literal) but small effect
+content_ttr,0.8622556260247451,1.1708306308366742e-26,4.0051667241060645e-22,Significant (higher in metaphorical) but small effect
+function_ttr,0.7512752184479632,9.346860180692837e-20,2.9406130570017014e-19,Significant (higher in metaphorical) but small effect
+function_mattr,0.3554480291880779,2.780424186180304e-06,1.5209634731352267e-05,Significant (higher in metaphorical) but small effect
+noun_ttr,0.8644145514360588,1.872646542773558e-26,6.914324342328072e-22,Significant (higher in metaphorical) but small effect
+verb_ttr,0.8425497365809466,2.1536023649983794e-25,1.8764215670524976e-21,Significant (higher in metaphorical) but small effect
+adj_ttr,0.8286463317848618,8.225194793822209e-26,7.579043606591896e-22,Significant (higher in metaphorical) but small effect
+adv_ttr,0.8340733267214333,1.7821356651433944e-24,6.681106286472002e-21,Significant (higher in metaphorical) but small effect
+prp_ttr,0.6753467515700764,8.6023504433593665e-16,2.902525518955243e-17,Significant (higher in metaphorical) but small effect
+argument_ttr,0.8376967894609205,2.0132756318127855e-24,1.4540757313040904e-20,Significant (higher in metaphorical) but small effect
+bigram_lemma_ttr,0.8619502924368971,3.720392018915367e-27,1.180656378816732e-22,Significant (higher in metaphorical) but small effect
+trigram_lemma_ttr,0.7675938986809373,3.4419106257594575e-22,3.0135930972162247e-19,Significant (higher in metaphorical) but small effect
+adjacent_overlap_all_sent,-0.29466823444979107,0.0002692482367147646,3.2360860471817566e-05,Significant (higher in literal) but small effect
+adjacent_overlap_all_sent_div_seg,-0.05107357670070533,0.5219469957545182,0.7187276546652752,Not significant
+adjacent_overlap_binary_all_sent,0.03269041426137243,0.6888484359979741,0.005632196693063696,Significant (higher in metaphorical) but small effect
+adjacent_overlap_2_all_sent,-0.21221532249719327,0.0070292555248029345,0.0012322351150181622,Significant (higher in literal) but small effect
+adjacent_overlap_2_all_sent_div_seg,0.04048407765567459,0.6083677285704998,0.6090852607433068,Not significant
+adjacent_overlap_binary_2_all_sent,0.010687616419941929,0.8960332884010817,0.0008115733387071174,Significant (higher in metaphorical) but small effect
+adjacent_overlap_cw_sent,-0.1897646598436709,0.015850270795322727,0.0006853887440521942,Significant (higher in literal) but small effect
+adjacent_overlap_cw_sent_div_seg,-0.11027371046202492,0.16669955418565574,0.006766596673385611,Significant (higher in literal) but small effect
+adjacent_overlap_binary_cw_sent,-0.1171286387007031,0.13995774396663482,0.9336290724022328,Not significant
+adjacent_overlap_2_cw_sent,-0.15424828014146205,0.04775768330593656,0.004582071969669087,Significant (higher in literal) but small effect
+adjacent_overlap_2_cw_sent_div_seg,-0.07822948124642687,0.3190312554255591,0.048578635326925544,Significant (higher in literal) but small effect
+adjacent_overlap_binary_2_cw_sent,-0.08114643965639655,0.30330030072223074,0.3377732275124187,Not significant
+adjacent_overlap_fw_sent,-0.2696631736378685,0.0007380423323724956,0.0033651857289446426,Significant (higher in literal) but small effect
+adjacent_overlap_fw_sent_div_seg,-0.025669377519729496,0.7492889628866877,0.9190735158962123,Not significant
+adjacent_overlap_binary_fw_sent,0.09542234962839767,0.24719680628216664,0.023167535354415486,Significant (higher in metaphorical) but small effect
+adjacent_overlap_2_fw_sent,-0.22871554263841332,0.003500095485697185,0.012365417692357621,Significant (higher in literal) but small effect
+adjacent_overlap_2_fw_sent_div_seg,0.0625265894026782,0.43064817777867304,0.338939369292094,Not significant
+adjacent_overlap_binary_2_fw_sent,0.18556855646175896,0.02079749947399341,0.00046679294374794925,Significant (higher in metaphorical) but small effect
+adjacent_overlap_noun_sent,-0.09352645378511579,0.20362322183062237,0.11533859787415562,Not significant
+adjacent_overlap_noun_sent_div_seg,-0.14244098541996028,0.0723309190641072,0.017343208940037002,Significant (higher in literal) but small effect
+adjacent_overlap_binary_noun_sent,-0.12651423068079254,0.10653007620811925,0.43005155466091893,Not significant
+adjacent_overlap_2_noun_sent,-0.06715814707651885,0.36680485308894817,0.24434689646078822,Not significant
+adjacent_overlap_2_noun_sent_div_seg,-0.08185413938167571,0.29158676614036405,0.05725133153181083,Not significant
+adjacent_overlap_binary_2_noun_sent,-0.12658967928783027,0.11065908311051469,0.5518097261998061,Not significant
+adjacent_overlap_verb_sent,-0.2090859461480863,0.011593081477811046,0.015440431672946887,Significant (higher in literal) but small effect
+adjacent_overlap_verb_sent_div_seg,-0.17407364457554955,0.03020272901412421,0.02914284570869462,Significant (higher in literal) but small effect
+adjacent_overlap_binary_verb_sent,-0.1818781434830039,0.02474271154378493,0.06597347726838107,Not significant
+adjacent_overlap_2_verb_sent,-0.11551223825060924,0.1488384180884336,0.030001366221006447,Significant (higher in literal) but small effect
+adjacent_overlap_2_verb_sent_div_seg,-0.1331142431179262,0.09055724572047083,0.03933090740473899,Significant (higher in literal) but small effect
+adjacent_overlap_binary_2_verb_sent,-0.15689596692084987,0.04692881021382809,0.06788383681025514,Not significant
+adjacent_overlap_adj_sent,0.05327020128928385,0.5031914726366663,0.03598702431286902,Significant (higher in metaphorical) but small effect
+adjacent_overlap_adj_sent_div_seg,0.06410099025343674,0.425491475652777,0.12521971841493554,Not significant
+adjacent_overlap_binary_adj_sent,0.10194540805721247,0.2072004269155688,0.22517858402312918,Not significant
+adjacent_overlap_2_adj_sent,0.0780092166069547,0.33289306720518685,0.521840827650113,Not significant
+adjacent_overlap_2_adj_sent_div_seg,0.07877694691786166,0.33092210344711936,0.9140888367340375,Not significant
+adjacent_overlap_binary_2_adj_sent,0.11316036649513794,0.16413741588112835,0.7069966245899403,Not significant
+adjacent_overlap_adv_sent,-0.23628790067290245,0.0031751584527561416,0.00018877902235235386,Significant (higher in literal) but small effect
+adjacent_overlap_adv_sent_div_seg,-0.11939026006930843,0.13549552874959644,0.017248136757006982,Significant (higher in literal) but small effect
+adjacent_overlap_binary_adv_sent,-0.12947171620807796,0.10225659437056112,0.016564823808684598,Significant (higher in literal) but small effect
+adjacent_overlap_2_adv_sent,-0.23870044139855695,0.0027453514106997516,0.0001085586568961144,Significant (higher in literal) but small effect
+adjacent_overlap_2_adv_sent_div_seg,-0.11606472300577686,0.1437195512644102,0.02138939677127049,Significant (higher in literal) but small effect
+adjacent_overlap_binary_2_adv_sent,-0.12740367750951237,0.10616368338480583,0.019660288534435758,Significant (higher in literal) but small effect
+adjacent_overlap_pronoun_sent,-0.3606088732910796,2.44129116379567e-05,1.6823297735309827e-05,Significant (higher in literal) but small effect
+adjacent_overlap_pronoun_sent_div_seg,-0.10188610244305807,0.21934800310926564,0.07120398489514157,Not significant
+adjacent_overlap_binary_pronoun_sent,-0.12761477828419926,0.12248881251833517,0.04861715405719583,Significant (higher in literal) but small effect
+adjacent_overlap_2_pronoun_sent,-0.24348484452934516,0.003927568013427221,0.0015680932484127077,Significant (higher in literal) but small effect
+adjacent_overlap_2_pronoun_sent_div_seg,-0.00441695778564145,0.9567534492846579,0.3986345156133557,Not significant
+adjacent_overlap_binary_2_pronoun_sent,-0.01648604600116724,0.8369580045380913,0.3700885753584847,Not significant
+adjacent_overlap_argument_sent,-0.15350658530610986,0.04135073242635897,0.033543539470522785,Significant (higher in literal) but small effect
+adjacent_overlap_argument_sent_div_seg,-0.1107905914217081,0.1735380901375324,0.023414059982341223,Significant (higher in literal) but small effect
+adjacent_overlap_binary_argument_sent,-0.13498816491637072,0.0838725366234149,0.5324789923716464,Not significant
+adjacent_overlap_2_argument_sent,-0.07363476478916256,0.32731489851536366,0.24875079880998907,Not significant
+adjacent_overlap_2_argument_sent_div_seg,0.00015627893994816876,0.9984613815204031,0.4951270101277315,Not significant
+adjacent_overlap_binary_2_argument_sent,-0.14286242954607373,0.06896800361788712,0.6099412002177582,Not significant
+adjacent_overlap_all_para,-0.2685959823711047,0.0011428289615082235,0.00023116564265276347,Significant (higher in literal) but small effect
+adjacent_overlap_all_para_div_seg,-0.020323987405745286,0.8017356960224682,0.9485952276886008,Not significant
+adjacent_overlap_binary_all_para,0.010771604431311619,0.8961846548494441,0.004302703873741992,Significant (higher in metaphorical) but small effect
+adjacent_overlap_2_all_para,-0.20264806821706965,0.010107550104750613,0.0039990040224254664,Significant (higher in literal) but small effect
+adjacent_overlap_2_all_para_div_seg,0.05395197185634951,0.49783538366627933,0.47737506114636996,Not significant
+adjacent_overlap_binary_2_all_para,-0.08168060587453072,0.32080476723899165,0.00015371993842531177,Significant (higher in literal) but small effect
+adjacent_overlap_cw_para,-0.17741859197206578,0.02425237228030302,0.0011048650592434875,Significant (higher in literal) but small effect
+adjacent_overlap_cw_para_div_seg,-0.09918305285920592,0.21313213221096042,0.009961848783816937,Significant (higher in literal) but small effect
+adjacent_overlap_binary_cw_para,-0.07584798853026428,0.35814288491928936,0.1422144979341718,Not significant
+adjacent_overlap_2_cw_para,-0.15773367782343797,0.042620001340069186,0.004689709878809747,Significant (higher in literal) but small effect
+adjacent_overlap_2_cw_para_div_seg,-0.07068133277599323,0.36676238633336555,0.07152195878013919,Not significant
+adjacent_overlap_binary_2_cw_para,-0.08495338074023244,0.3020364501714034,0.13432935839182647,Not significant
+adjacent_overlap_fw_para,-0.2580292930704853,0.0014028959065301287,0.004007570791254424,Significant (higher in literal) but small effect
+adjacent_overlap_fw_para_div_seg,4.515066153780674e-05,0.9995555920518095,0.7775412989964583,Not significant
+adjacent_overlap_binary_fw_para,0.13862120700306735,0.08426014251758254,0.015050331879392266,Significant (higher in metaphorical) but small effect
+adjacent_overlap_2_fw_para,-0.2182594840145105,0.00533721880648902,0.010935709019737366,Significant (higher in literal) but small effect
+adjacent_overlap_2_fw_para_div_seg,0.08445347678039422,0.2919958801021636,0.23304799659077668,Not significant
+adjacent_overlap_binary_2_fw_para,-0.008791130303795839,0.9152339829998433,0.00567149725476598,Significant (higher in literal) but small effect
+adjacent_overlap_noun_para,-0.08360342465092235,0.2589161090385207,0.14581371434025325,Not significant
+adjacent_overlap_noun_para_div_seg,-0.13089316474745094,0.10298947224767727,0.014857281205403663,Significant (higher in literal) but small effect
+adjacent_overlap_binary_noun_para,-0.07457921524411601,0.3444623175308976,0.7431542393249004,Not significant
+adjacent_overlap_2_noun_para,-0.07635513065036804,0.30602921580241943,0.20838176525822705,Not significant
+adjacent_overlap_2_noun_para_div_seg,-0.08787717054028366,0.25378149768322056,0.056986762284553606,Not significant
+adjacent_overlap_binary_2_noun_para,-0.11155968481589648,0.17344878392187013,0.5605304232501775,Not significant
+adjacent_overlap_verb_para,-0.1148615543001228,0.1474914519604779,0.04164203744143581,Significant (higher in literal) but small effect
+adjacent_overlap_verb_para_div_seg,-0.14183559847535132,0.07219887649764128,0.08043944912036301,Not significant
+adjacent_overlap_binary_verb_para,-0.1504705222188214,0.057781661307916767,0.1503108433581716,Not significant
+adjacent_overlap_2_verb_para,-0.18516180017691802,0.025733403378481366,0.023249458627881296,Significant (higher in literal) but small effect
+adjacent_overlap_2_verb_para_div_seg,-0.13606529471591938,0.08866441942543815,0.05363895581164426,Not significant
+adjacent_overlap_binary_2_verb_para,-0.1675780556296007,0.03830799905908167,0.07520762835381718,Not significant
+adjacent_overlap_adj_para,0.04092838404905325,0.6061650555634988,0.0330889055627708,Significant (higher in metaphorical) but small effect
+adjacent_overlap_adj_para_div_seg,0.045247401115604775,0.5721459698416778,0.10296657041739958,Not significant
+adjacent_overlap_binary_adj_para,0.07728314526191138,0.33464520352287874,0.17321364917975868,Not significant
+adjacent_overlap_2_adj_para,0.08480543161928708,0.29631518242456667,0.5300314238213486,Not significant
+adjacent_overlap_2_adj_para_div_seg,0.09011336406237226,0.26866699371212316,0.8947400291506191,Not significant
+adjacent_overlap_binary_2_adj_para,0.12667546830597076,0.12105285110374979,0.6690448426258555,Not significant
+adjacent_overlap_adv_para,-0.2462485333625865,0.0020558459854993086,0.00011347097956558693,Significant (higher in literal) but small effect
+adjacent_overlap_adv_para_div_seg,-0.12187357219881484,0.12798948273933358,0.017059372323482064,Significant (higher in literal) but small effect
+adjacent_overlap_binary_adv_para,-0.13048088977310052,0.09976648499027234,0.01684143655771435,Significant (higher in literal) but small effect
+adjacent_overlap_2_adv_para,-0.24636936746969096,0.001944510165553398,6.698855124338831e-05,Significant (higher in literal) but small effect
+adjacent_overlap_2_adv_para_div_seg,-0.1174959365267711,0.13808549820716673,0.02189044969366799,Significant (higher in literal) but small effect
+adjacent_overlap_binary_2_adv_para,-0.12481205009417687,0.11377498588001089,0.023167535354415486,Significant (higher in literal) but small effect
+adjacent_overlap_pronoun_para,-0.37470289366846826,1.1626743597574468e-05,8.197001387741931e-06,Significant (higher in literal) but small effect
+adjacent_overlap_pronoun_para_div_seg,-0.11396098937854085,0.16993756860526263,0.05174275155192167,Not significant
+adjacent_overlap_binary_pronoun_para,-0.14121107939726388,0.08825734240284196,0.031197428499377292,Significant (higher in literal) but small effect
+adjacent_overlap_2_pronoun_para,-0.2394966088267947,0.004750145303986219,0.0014154522029058332,Significant (higher in literal) but small effect
+adjacent_overlap_2_pronoun_para_div_seg,-0.0017841955617769337,0.9825416939318624,0.4280715679624345,Not significant
+adjacent_overlap_binary_2_pronoun_para,-0.01653886488389847,0.836651529030323,0.39034626046072063,Not significant
+adjacent_overlap_argument_para,-0.15074425342233244,0.04642520331610672,0.03799720853362481,Significant (higher in literal) but small effect
+adjacent_overlap_argument_para_div_seg,-0.10299341754901906,0.21204277819089037,0.06285629211121206,Not significant
+adjacent_overlap_binary_argument_para,-0.08680210821736067,0.2698533724285359,0.9856319491591718,Not significant
+adjacent_overlap_2_argument_para,-0.0794079301131248,0.2932753712183146,0.2748525169907319,Not significant
+adjacent_overlap_2_argument_para_div_seg,-0.0033480088493143788,0.9672956236926733,0.6896611797857652,Not significant
+adjacent_overlap_binary_2_argument_para,-0.11240865539308309,0.17071641349704345,0.754841297764443,Not significant
+syn_overlap_sent_noun,-0.07914849297719088,0.33063167383188796,0.11134056191706511,Not significant
+syn_overlap_sent_verb,-0.07713255856236856,0.3336249914360033,0.1158147829329511,Not significant
+syn_overlap_para_noun,-0.06733011201491523,0.4100722019761708,0.23067580443401037,Not significant
+syn_overlap_para_verb,-0.05243844463333711,0.504528945486594,0.2766369176762151,Not significant
+lsa_1_all_sent,-0.03852727229446004,0.6275142380030602,0.16238474050125506,Not significant
+lsa_2_all_sent,-0.20726054667702504,0.0091004538257915,0.002050683361265178,Significant (higher in literal) but small effect
+lsa_1_all_para,-0.06192639242009286,0.428891605272366,0.11627706511438061,Not significant
+lsa_2_all_para,-0.20937123180180606,0.008374561466997738,0.001303947676688486,Significant (higher in literal) but small effect
+lda_1_all_sent,0.024904334899941424,0.7621311678506089,0.6157178996494754,Not significant
+lda_2_all_sent,-0.07539076852455384,0.35724541040240365,0.7512784286227219,Not significant
+lda_1_all_para,0.021498128766308917,0.793851430200334,0.7589744669347648,Not significant
+lda_2_all_para,-0.08266540009837656,0.31281138315172086,0.8704917437670164,Not significant
+word2vec_1_all_sent,-0.4012125032890877,1.7080043226715244e-07,9.381784902808059e-07,Significant (higher in literal) but small effect
+word2vec_2_all_sent,-0.37847045448968575,9.309095134024592e-07,2.6942596735501836e-09,Significant (higher in literal) but small effect
+word2vec_1_all_para,-0.36043301748275286,2.288032060792231e-06,7.469657350535206e-07,Significant (higher in literal) but small effect
+word2vec_2_all_para,-0.3349661751375985,1.6901531146959334e-05,2.2931963728183285e-09,Significant (higher in literal) but small effect
+basic_connectives,0.007408404216000098,0.9272742500343746,0.848750819325431,Not significant
+conjunctions,0.07329761045819413,0.3791672905359087,0.7232759501525029,Not significant
+disjunctions,-0.32215592981633545,3.6532232003224937e-06,4.188571795395535e-05,Significant (higher in literal) but small effect
+lexical_subordinators,-0.13291590103450798,0.09725516080629495,0.09296548611056485,Not significant
+coordinating_conjuncts,0.15815797824474198,0.04480980368055903,0.18320967675921818,Not significant
+addition,0.0292375991920006,0.7263035535260718,0.9534338660963486,Not significant
+sentence_linking,0.09894937420227817,0.20452830619829238,0.31301303665733726,Not significant
+order,0.15574949745902036,0.0342808664545981,0.09455253458608491,Not significant
+reason_and_purpose,0.09694917226156784,0.24032161629364482,0.0773339036397758,Not significant
+all_causal,-0.11121337695423458,0.15853380573006776,0.0656759306442603,Not significant
+positive_causal,-0.23108576726535568,0.004211802921572355,0.0029774901057214257,Significant (higher in literal) but small effect
+opposition,0.22034491506873455,0.006911892752783099,0.03067246721588401,Significant (higher in metaphorical) but small effect
+determiners,-0.05008955818154582,0.547716403906228,0.871023304540497,Not significant
+all_demonstratives,-0.1501305631239918,0.077460895143967,0.10482467851606815,Not significant
+attended_demonstratives,-0.09298355313780295,0.26307861530480137,0.8434649054635327,Not significant
+unattended_demonstratives,-0.13415075104958435,0.09973042589469511,0.03933090740473899,Significant (higher in literal) but small effect
+all_additive,-0.05360074479903973,0.4988905958211325,0.3224956657336625,Not significant
+all_logical,-0.30141201721931443,8.33752785916373e-05,4.440571609405032e-05,Significant (higher in literal) but small effect
+positive_logical,-0.17190641914691676,0.03130609633793454,0.01359514104415851,Significant (higher in literal) but small effect
+negative_logical,0.10638852065031364,0.19924861330597374,0.2899636342283878,Not significant
+all_temporal,0.2728186118487375,0.00033643303526908233,0.00022511800711650808,Significant (higher in metaphorical) but small effect
+positive_intentional,0.11315554412520445,0.14905095365012527,0.7374881800678894,Not significant
+all_positive,0.08807906650858177,0.2740970179607784,0.6228592850208245,Not significant
+all_negative,-0.1573061467027162,0.039617854944933265,0.03926650839024683,Significant (higher in literal) but small effect
+all_connective,-0.013152567583948203,0.8665656898289658,0.5973210846048354,Not significant
+pronoun_density,0.18649679529048724,0.012424523428678304,0.050536564716739014,Not significant
+pronoun_noun_ratio,0.18363805135275288,0.013047044191542317,0.042323108590139116,Significant (higher in metaphorical) but small effect
+repeated_content_lemmas,-0.8406550601177751,1.0694669324608164e-25,9.46822813624193e-22,Significant (higher in literal) but small effect
+repeated_content_and_pronoun_lemmas,-0.8397081405035995,7.726074857412652e-25,4.974480012867212e-21,Significant (higher in literal) but small effect
